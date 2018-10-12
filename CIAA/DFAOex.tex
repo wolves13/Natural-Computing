@@ -1,0 +1,130 @@
+\documentclass[dvipdfmx,10pt]{beamer}
+\bibliographystyle{junsrt}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number] 
+\usepackage{graphicx}
+\usepackage{minijs}%和文用
+\renewcommand{\kanjifamilydefault}{\gtdefault}%和文用
+\usetheme{EastLansing}
+\usepackage{tikz}
+\usepackage{xspace}
+\usepackage{comment}
+\usepackage{hyperref}
+\usepackage{otf}
+\usefonttheme{serif}
+\usepackage{ascmac}
+%\usepackage[absolute,overlay]{textpos}
+\usefonttheme{professionalfonts}
+\usepackage{amsmath}
+\usepackage{caption}
+
+\usetikzlibrary{lindenmayersystems}
+\usetikzlibrary{shapes,arrows}
+
+\usetikzlibrary{positioning,automata}
+\usetikzlibrary{decorations.markings}
+\usepackage{mathtools}
+\usepackage{geometry}
+\usetikzlibrary{%
+  arrows,%
+  positioning,%
+  decorations.pathmorphing,%
+  decorations.pathreplacing,%
+}
+
+
+
+
+
+
+\setlength{\columnsep}{3zw}
+\makeatletter
+\def\presentation#1{\def\@presentation{#1}}
+\def\@maketitle{
+\begin{flushright}
+{\large \@date}% 日付 
+\end{flushright}
+\begin{center}
+{\large \@presentation}% 会名 
+\end{center}% 
+\begin{center} 
+{\LARGE \@title \par}% タイトル 
+\end{center}
+\begin{center} 
+{\large \@author}% 著者 
+
+\end{center}
+\par\vskip 1.5em
+}
+\makeatother
+
+%\beamersetuncovermixins{\opaqueness<1>{25}}{\opaqueness<2->{15}}
+\begin{document}
+\title{Towards the algorithmic molecular self-assembly of fractals \\by cotranscriptional folding} 
+\author{Yusei Masuda, Shinnosuke Seki, and Yuki Ubukata}
+\institute{University of Electro-Communications Tokyo}
+\date{July 30th, 2018}
+\begin{frame}
+\maketitle
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}\frametitle{Cotranscriptional folding}
+\scalebox{0.85}{
+
+\begin{tikzpicture}
+\foreach \x in {12}{
+\draw[thick,-latex,red](3,10)-- ++(0:9)-- ++(0:0.5)-- ++(300:1.5)-- ++(180:0.5);
+\draw[thick,blue](10,10)-- ++(0:1) node [above] {\LARGE{HA-0}}-- ++(0:1);
+\draw[thick,blue](5,10)-- ++(0:1) node [above] {\LARGE{HA-0}}-- ++(0:1);
+
+\uncover<2->{\draw[thick,orange] (\x,10)++(300:1.5)-- ++(180:1.2) node [above, orange] {\LARGE{HA-1b}} -- ++(180:0.8)-- ++(120:1)-- ++(0:2)-- ++(300:1);
+\draw[thick,orange,-latex] (\x-2,10)++(300:0.5)-- ++(180:0.5);
+}
+
+\uncover<3->{\draw[thick] (\x -2.5,10)++(300:1.5)-- ++(180:2)-- ++(120:1)-- ++(0:2)-- ++(300:1);
+\draw[thick,-latex] (\x-4.5,10)++(300:0.5)-- ++(180:0.5);
+}
+
+\uncover<4->{\draw[thick,orange] (\x -5,10)++(300:1.5)-- ++(180:1.2) node [above, orange] {\LARGE{HA-0b}} -- ++(180:0.8)-- ++(120:1)-- ++(0:2)-- ++(300:1);
+\draw[thick,orange,-latex] (\x-7,10)++(300:0.5)-- ++(180:0.5);
+}
+
+\uncover<5->{\draw[thick] (\x -7.5,10) ++(300:1.5)-- ++(120 :1)-- ++(180:1)-- ++(300:2.5)-- ++(0:1)-- ++(120:1.5);
+\draw[thick,-latex] (\x-7.5,10)++(300:2)-- ++(0:0.5);
+}
+
+\uncover<6->{\draw[thick,orange] (\x -5,10)++(300:3)-- ++(180:1.2) node [above, orange] {\LARGE{HA-0}} -- ++(180:0.8)-- ++(120:1)-- ++(0:2)-- ++(300:1);
+\draw[thick,orange,-latex] (\x-5,10)++(300:2)-- ++(0:0.5);
+}
+
+\uncover<7->{\draw[thick] (\x -2.5,10)++(300:3)-- ++(180:2)-- ++(120:1)-- ++(0:2)-- ++(300:1);
+\draw[thick,-latex] (\x-2.5,10)++(300:2)-- ++(0:0.5);
+}
+
+\uncover<8->{\draw[thick,orange] (\x,10)++(300:3)-- ++(180:1.2) node [above , orange] {\LARGE{HA-1}} -- ++(180:0.8)-- ++(120:1)-- ++(0:2)-- ++(300:1);
+\draw[thick,orange,-latex] (\x,10)++(300:2)-- ++(0:0.5);
+}
+
+\uncover<9->{\draw[thick] (\x +1.5,10) ++(300:3)-- ++(120 :1)-- ++(180:1)-- ++(300:2.5)-- ++(0:1)-- ++(120:1.5);
+\draw[thick,-latex] (\x+0.5,10)++(300:4.5)-- ++(180:0.5);
+}
+
+\uncover<10->{\draw[thick,orange] (\x,10)++(300:4.5)-- ++(180:1.2) node [above, orange] {\LARGE{HA-0a}} -- ++(180:0.8)-- ++(120:1)-- ++(0:2)-- ++(300:1);
+\draw[thick,orange,-latex] (\x-2,10)++(300:4.5)-- ++(180:0.5);
+}
+\uncover<11->{\draw[thick] (\x -2.5,10)++(300:4.5)-- ++(180:2)-- ++(120:1)-- ++(0:2)-- ++(300:1);
+\draw[thick,-latex] (\x-4.5,10)++(300:4.5)-- ++(180:0.5);
+}
+\uncover<12->{\draw[thick,orange] (\x-5,10)++(300:4.5)-- ++(180:1.2) node [above, orange] {\LARGE{HA-1b}} -- ++(180:0.8)-- ++(120:1)-- ++(0:2)-- ++(300:1);
+\draw[thick,orange,-latex] (\x-7,10)++(300:3.5)-- ++(180:0.5);
+}
+}
+\end{tikzpicture}
+
+}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

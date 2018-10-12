@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{Oritatami System}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Definition}{5}{0}{1}
+\beamer@sectionintoc {2}{Heighway dragon}{17}{0}{2}
+\beamer@subsectionintoc {2}{1}{Paperfolding sequence}{19}{0}{2}
+\beamer@subsectionintoc {2}{2}{DFAO}{23}{0}{2}
+\beamer@subsectionintoc {2}{3}{Main results}{35}{0}{2}
