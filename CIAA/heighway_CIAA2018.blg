@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: heighway_CIAA2018.aux
+The style file: splncs03.bst
+Database file #1: heighway_CIAA2018.bib
+You've used 15 entries,
+            2785 wiz_defined-function locations,
+            690 strings with 6715 characters,
+and the built_in function-call counts, 8469 in all, are:
+= -- 712
+> -- 235
+< -- 17
++ -- 98
+- -- 82
+* -- 510
+:= -- 1079
+add.period$ -- 24
+call.type$ -- 15
+change.case$ -- 93
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 757
+empty$ -- 772
+format.name$ -- 94
+if$ -- 1900
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 151
+newline$ -- 50
+num.names$ -- 30
+pop$ -- 262
+preamble$ -- 1
+purify$ -- 71
+quote$ -- 0
+skip$ -- 258
+stack$ -- 0
+substring$ -- 488
+swap$ -- 424
+text.length$ -- 17
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 54
+warning$ -- 0
+while$ -- 67
+width$ -- 17
+write$ -- 161

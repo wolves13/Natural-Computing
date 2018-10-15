@@ -1,0 +1,69 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{AbelsondiSessa1981}
+Abelson, H., diSessa, A.: Turtle Geometry The Computer as a Medium for
+  Exploring Mathematics. The MIT Press (1981)
+
+\bibitem{AJLMRRW2014}
+Alberts, B., Johnson, A., Lewis, J., Morgan, D., Raff, M., Roberts, K., Walter,
+  P.: Molecular Biology of the Cell. Garland Science, 6th edn. (2014)
+
+\bibitem{AlloucheShallit2003}
+Allouche, J.P., Shallit, J.: Automatic Sequences: Theory, Applications,
+  Generalizations. Cambridge University Press (2003)
+
+\bibitem{Doty2012}
+Doty, D.: Theory of algorithmic self-assembly. Commun. ACM  55(12),  78--88
+  (2012)
+
+\bibitem{GearyAndersen2014}
+Geary, C., Andersen, E.S.: Design principles for single-stranded {RNA} origami
+  structures. In: DNA20. pp. 1--19. LNCS 8727, Springer (2014)
+
+\bibitem{GeMeScSe2016}
+Geary, C., Meunier, P.E., Schabanel, N., Seki, S.: Programming biomolecules
+  that fold greedily during transcription. In: MFCS2016. pp. 43:1--43:14.
+  LIPIcs 58 (2016)
+
+\bibitem{GearyRothemundAndersen2014}
+Geary, C., Rothemund, P.W.K., Andersen, E.S.: A single-stranded architecture
+  for cotranscriptional folding of {RNA} nanostructures. Science  345(6198),
+  799--804 (2014)
+
+\bibitem{HanKim2017}
+Han, Y.S., Kim, H.: Ruleset optimization on isomorphic oritatami systems. In:
+  DNA23. pp. 33--45. LNCS 10467, Springer (2017)
+
+\bibitem{HaKiOtSe2016}
+Han, Y.S., Kim, H., Ota, M., Seki, S.: Nondeterministic seedless oritatami
+  systems and hardness of testing their equivalence. In: DNA22. pp. 19--34.
+  LNCS 9818, Springer (2016)
+
+\bibitem{MaHoldener2005}
+Ma, J., Holdener, J.: When {T}hue-{M}orse meets {K}och. Fractals  13,  191--206
+  (2005)
+
+\bibitem{OtaSeki2017}
+Ota, M., Seki, S.: Ruleset design problems for oritatami systems. Theor.
+  Comput. Sci.  671,  26--35 (2017)
+
+\bibitem{Patitz2016}
+Patitz, M.J.: Self-assembly of fractals. In: Encyclopedia of Algorithms, pp.
+  1918--1922. Springer (2016)
+
+\bibitem{RothemundPapadakisWinfree2004}
+Rothemund, P.W.K., Papadakis, N., Winfree, E.: Algorithmic self-assembly of
+  {DNA} {S}ierpinski triangle. PLoS Biology  2(12),  e424 (2004)
+
+\bibitem{WaStYuLiLu2016}
+Watters, K.E., Strobel, E.J., Yu, A.M., Lis, J.T., Lucks, J.B.:
+  Cotranscriptional folding of a riboswitch at nucleotide resolution. Nat.
+  Struct. Mol. Biol.  23(12),  1124--1133 (2016)
+
+\bibitem{WinfreePhD}
+Winfree, E.: Algorithmic Self-Assembly of {D}{N}{A}. Ph.D. thesis, California
+  Institute of Technology (June 1998)
+
+\end{thebibliography}
